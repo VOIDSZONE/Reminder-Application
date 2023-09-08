@@ -60,15 +60,15 @@ JWT_SECRET=your_jwt_secret
 
 ### API ENDPOINTS
 
-POST /api/register: Register a new user.
-POST /api/login: Login with valid credentials and receive a JWT token.
-GET /api/reminders: Get all reminders for the authenticated user.
-POST /api/reminders: Create a new reminder.
-GET /api/reminders/:id: View a specific reminder.
-PUT /api/reminders/:id: Modify a specific reminder.
-PATCH /api/reminders/:id/disable: Disable a specific reminder.
-PATCH /api/reminders/:id/enable: Enable a specific reminder.
-DELETE /api/reminders/:id: Delete a specific reminder.
+1. POST /api/register: Register a new user.
+2. POST /api/login: Login with valid credentials and receive a JWT token.
+3. GET /api/reminders: Get all reminders for the authenticated user.
+4. POST /api/reminders: Create a new reminder.
+5. GET /api/reminders/:id: View a specific reminder.
+6. PUT /api/reminders/:id: Modify a specific reminder.
+7. PATCH /api/reminders/:id/disable: Disable a specific reminder.
+8. PATCH /api/reminders/:id/enable: Enable a specific reminder.
+9. DELETE /api/reminders/:id: Delete a specific reminder.
 
 ### Authentication
 
